@@ -1,0 +1,14 @@
+{% extends "admin/base.html" %}
+
+{% block title %}لوحة تحكم مطعمك{% endblock %}
+
+{% block branding %}
+<a href="{% url 'admin:index' %}">
+    <img src="/static/logo.png" style="height:50px; vertical-align: middle; margin-right:10px;">
+    لوحة تحكم مطعمك
+</a>
+{% endblock %}
+
+{% block content_title %}
+{% if title %}{{ title|safe }}{% endif %}
+{% endblock %}

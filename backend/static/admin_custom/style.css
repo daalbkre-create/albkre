@@ -1,0 +1,30 @@
+/* تغيير خلفية لوحة التحكم */
+body {
+    background-color: #FFF8E7; /* خلفية فاتحة */
+    font-family: 'Tajawal', sans-serif; /* خط عربي جميل */
+}
+
+/* تغيير ترويسة Admin */
+#header {
+    background-color: #FF7043; /* برتقالي مشابه لتطبيق المطعم */
+    color: white;
+}
+
+/* تغيير الروابط */
+#header a {
+    color: white !important;
+}
+
+/* الأزرار */
+.button, input[type=submit] {
+    background-color: #FF7043;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 12px;
+    border: none;
+}
+
+/* تظليل الصفوف عند المرور */
+tr:hover {
+    background-color: #FFF3E0 !important;
+}
